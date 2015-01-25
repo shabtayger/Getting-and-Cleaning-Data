@@ -16,7 +16,7 @@ The function tidifyActivityData(activityFilename=NULL, activitySummaryFilename=N
 
 When function parameters, activityMeanFilename, activitySummaryFilename, are provided (they must be valid file names), the data frames generated in (2) and (3) above, will be saved to files activityMeanFilename.yyyymmdd_hhmmssTZ.csv and activitySummaryFilename.yyyymmdd_hhmmssTZ.csv
 
-The [codebook](https://github.com/shabtayger/Getting-and-Cleaning-Data/blob/master/CodeBook.md) for the [activity summary file](https://github.com/shabtayger/Getting-and-Cleaning-Data/blob/master/activitySummary.20150125_161533IST.txt) is attached as well.
+The [codebook](https://github.com/shabtayger/Getting-and-Cleaning-Data/blob/master/CodeBook.md) for the [activity summary file](https://github.com/shabtayger/Getting-and-Cleaning-Data/blob/master/activitySummary.20150125_161533IST.txt) is attached as well. 
  
 Notes: 
 ------
