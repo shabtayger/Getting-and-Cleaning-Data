@@ -23,9 +23,9 @@ Variables names explanation:
 - Statistical moments: 'mean' is the mean of the measured feature, 'std' is the standard deviation of the measured feature
 - 'frequency' is a frequency in the time domain
 
-Please note:
+Data units:
 ------------
-Features are normalized and bounded within [-1,1]
+Features are normalized and bounded within [-1,1]. Therefore, measurements results can be treated as pure numbers
 Examples
 --------
 - Variable 'time.body.gyroscope.std.z' is the mean of the time domain body gyroscope z component standard deviation, taken over all measurements of a subject's single activity 
