@@ -12,7 +12,7 @@ The function tidifyActivityData(activityFilename=NULL, activitySummaryFilename=N
  
 1. originalDataAccessTime: 	The time of accessing the original data. The time format is yyyymmdd_hhmmssTZ.
 2. activityMeanData: 		A data frame of both the training and test data, which includes only the mean and the std variables from the original data.  
-3. activitySummaryData:		A data frame which includes the mean of each variable grouped by subject id and activity. An example of this file is [attached]().
+3. activitySummaryData:		A data frame which includes the mean of each variable grouped by subject id and activity. An example of this file is [attached](https://github.com/shabtayger/Getting-and-Cleaning-Data/blob/master/activitySummary.20150125_161533IST.txt).
 
 When function parameters, activityMeanFilename, activitySummaryFilename, are provided (they must be valid file names), the data frames generated in (2) and (3) above, will be saved to files activityMeanFilename.yyyymmdd_hhmmssTZ.txt and activitySummaryFilename.yyyymmdd_hhmmssTZ.txt
 
