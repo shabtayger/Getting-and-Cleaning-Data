@@ -14,7 +14,7 @@ Variables names explanation:
 ----------------------------
 - 'subject' is the subject id. It identifies one of the 30 students participated in the experiment.
 - 'activity' is the activity related to the sample. The values are:
-+ WALKING
+⋅⋅1 WALKING
 + WALKING_UPSTAIRS
 + WALKING_DOWNSTAIRS
 + SITTING
