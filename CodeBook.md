@@ -14,27 +14,27 @@ Variables names explanation:
 ----------------------------
 - 'subject' is the subject id. It identifies one of the 30 students participated in the experiment.
 - 'activity' is the activity related to the sample. The values are:
-..*WALKING
-..*WALKING_UPSTAIRS
-..*WALKING_DOWNSTAIRS
-..*SITTING
-..*STANDING
-..*LAYING 
+..1. WALKING
+..2. WALKING_UPSTAIRS
+..3. WALKING_DOWNSTAIRS
+..4. SITTING
+..5. STANDING
+..6. LAYING 
 - Measurement domains:
-..*'time' refers to time domain.
-..* 'fft' (Fast Fourier Transform) relates to the frequency domain.
+..1. 'time' refers to time domain.
+..2. 'fft' (Fast Fourier Transform) relates to the frequency domain.
 - Acceleration:
-..*'body' refers to the body linear acceleration
-..*'gravity' refers to the gravity acceleration g.
+..1. 'body' refers to the body linear acceleration
+..2. 'gravity' refers to the gravity acceleration g.
 - Sensors:
-..*'acceleration' refers to the accelerometer sensor measurements
-..*'gyroscope' refers to the gyroscope sensor
+..1. 'acceleration' refers to the accelerometer sensor measurements
+..2. 'gyroscope' refers to the gyroscope sensor
 - Axis - x, y, z - the Cartesian components of the measured feature vectors 
 - 'magnitude' refers to the length of the measured feature vectors
 - 'jerk' is the time derivative of the acceleration (the acceleration of the acceleration)
 - Statistical moments
-..* mean is the mean of the measured feature
-..* std is the standard deviation of the measured feature
+..1. mean is the mean of the measured feature
+..2.  std is the standard deviation of the measured feature
 - 'frequency' is a frequency in the time domain
 
 Please note:
