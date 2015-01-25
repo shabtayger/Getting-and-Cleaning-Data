@@ -9,7 +9,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 [The original data]( https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) includes explanations about the experiment and the code book for the original data.
 
 The function tidifyActivityData(activityFilename=NULL, activitySummaryFilename=NULL) included in the [attached R script](https://github.com/shabtayger/Getting-and-Cleaning-Data/blob/master/cleanActivityData.R), downloads the original data, and  returns a list with 3 elements:
-
+ 
 1. originalDataAccessTime: 	The time of accessing the original data. The time format is yyyymmdd_hhmmssTZ.
 2. activityMeanData: 		A data frame of both the training and test data, which includes only the mean and the std variables from the original data.  
 3. activitySummaryData:		A data frame which includes the mean of each variable grouped by subject id and activity. An example of this file is [attached]().
