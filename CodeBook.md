@@ -44,6 +44,7 @@ Examples
 --------
 - Variable 'time.body.gyroscope.std.z' is the mean of the time domain body gyroscope z component standard deviation, taken over all measurements of a subject's single activity 
 - Variable 'fft.bodybody.acceleration.jerk.magnitude.mean' is the mean of the frequency domain body linear acceleration magnitude mean, taken over all measurements of a subject's single activity
+
 List of variables
 -----------------
 - subject
