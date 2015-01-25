@@ -1,4 +1,4 @@
-Getting and Cleaning Data Project - Code Book for Activity Summary File
+﻿Getting and Cleaning Data Project - Code Book for Activity Summary File
 =======================================================================
 
 The features selected for this database come from the [original]( https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) Activity data file.  The attached file was created from the original file as follows:
@@ -14,7 +14,7 @@ Variables names explanation:
 ----------------------------
 - 'subject' is the subject id. It identifies one of the 30 students participated in the experiment.
 - 'activity' is the activity related to the sample. The values are:
-..1. WALKING
+⋅⋅* WALKING
 ..2. WALKING_UPSTAIRS
 ..3. WALKING_DOWNSTAIRS
 ..4. SITTING
