@@ -109,7 +109,7 @@ tidifyActivityData <- function(activityMeanDataFilename=NULL, activitySummaryFil
   #mergedData <- rbind(trainData, testData)
   mergedData <- rbind_list(trainData, testData)
   tidyData <- tidify(mergedData)
-  if (!is.null(activityFilename))
+  if (!is.null(activityMeanDataFilename))
     saveFile(mergedData, accessTime, activityMeanDataFilename)
   if (!is.null(activitySummaryFilename))
     saveFile(tidyData, accessTime, activitySummaryFilename)
